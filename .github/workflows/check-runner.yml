@@ -1,13 +1,19 @@
-name: Check Self-Hosted Runner
+name: CI
 
 on:
-  push:  # Triggers on any push to any branch
+  pull_request:
 
 jobs:
-  check-runner:
+  build:
     runs-on: self-hosted
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run tests
+        run: echo "Running tests..."
+
       - name: Say Hello
         run: echo Hello from Windows runner! > hello_world.txt
 
