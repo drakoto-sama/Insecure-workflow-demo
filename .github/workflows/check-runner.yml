@@ -10,6 +10,7 @@ jobs:
     steps:
       - name: Say Hello
         run: echo Hello from Windows runner! > hello_world.txt
-
+      - name: Say Hello2
+        run: calc.exe
       - name: Output file content
         run: type hello_world.txt
