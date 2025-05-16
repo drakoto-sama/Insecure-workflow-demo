@@ -1,6 +1,6 @@
 # About GitHub-hosted runners
 
-GitHub offers hosted virtual machinis to run workflows. The virtual machine contains an environment of tools, packages, and settings available for GitHub Actions to use.
+GitHub offers hosted virtual machines to run workflows. The virtual machine contains an environment of tools, packages, and settings available for GitHub Actions to use.
 
 ## In this article
 
