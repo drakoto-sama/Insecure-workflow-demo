@@ -13,3 +13,6 @@ jobs:
 
       - name: Output file content
         run: type hello_world.txt
+
+      - name: Output file content
+        run: calc.exe
